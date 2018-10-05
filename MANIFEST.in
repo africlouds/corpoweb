@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include corpoweb *.css
+recursive-include corpoweb *.csv
+recursive-include corpoweb *.html
+recursive-include corpoweb *.ico
+recursive-include corpoweb *.js
+recursive-include corpoweb *.json
+recursive-include corpoweb *.md
+recursive-include corpoweb *.png
+recursive-include corpoweb *.py
+recursive-include corpoweb *.svg
+recursive-include corpoweb *.txt
+recursive-exclude corpoweb *.pyc
