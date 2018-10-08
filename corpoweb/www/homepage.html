@@ -1,4 +1,20 @@
 {% extends "www/parent.html" %}{% block content %}
+
+{% block style %}
+	<style>
+		.intro {
+			display: table;
+			width: 100%;
+			padding: 0;
+			background-color: #e5e5e5;
+			background: url({{settings.intro_image}}) center center no-repeat;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+	</style>
+{% endblock %}
 <!-- Header -->
 <header id="header">
   <div class="intro">
