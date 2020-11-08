@@ -4,3 +4,5 @@
 *.swp
 tags
 corpoweb/docs/current
+**/__pycache__
+
